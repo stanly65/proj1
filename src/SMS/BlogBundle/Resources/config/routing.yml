@@ -1,0 +1,7 @@
+sms_blog_post:
+    resource: "@SMSBlogBundle/Resources/config/routing/post.yml"
+    prefix:   /post
+
+sms_blog_homepage:
+    path:     /
+    defaults: { _controller: SMSBlogBundle:Default:index }
